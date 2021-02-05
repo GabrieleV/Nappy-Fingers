@@ -1,4 +1,114 @@
 const BOARDS = {
+
+    "ballsy": {
+        "name":  "Ballsy Decathlon",
+        "image": "ballsy.png",
+        "left_holds": {
+            "0":    {
+                "name": "No hold",
+                "image": ""
+            },
+            "1":    {
+                "name": "L01 Sloper left",
+                "image": "ballsy_l01.png"
+            },
+            "2":    {
+                "name": "L02 Jug left",
+                "image": "ballsy_l02.png"
+            },
+            "3":    {
+                "name": "L03 Small Three fingers",
+                "image": "ballsy_l03.png"
+            },
+            "4":    {
+                "name": "04 Central deep",
+                "image": "ballsy_04.png"
+            },
+            "5":    {
+                "name": "L05 Deep four finger pocket",
+                "image": "ballsy_l05.png"
+            },
+            "6":    {
+                "name": "L06 Medium three finger pocket",
+                "image": "ballsy_l06.png"
+            },
+            "7":    {
+                "name": "07 Central deep pocket",
+                "image": "ballsy_07.png"
+            },
+            "8":    {
+                "name": "L08 Hard three finger pocket",
+                "image": "ballsy_l08.png"
+            },
+            "9":    {
+                "name": "09 Hard three finger central",
+                "image": "ballsy_09.png"
+            },
+            "10":   {
+                "name": "L10 Deep two fingers pocket",
+                "image": "ballsy_l10.png"
+            },
+            "11":   {
+                "name": "11 Medium three finger pocket",
+                "image": "ballsy_11.png"
+            },
+        },
+
+        "right_holds": {
+            "0":    {
+                "name": "No hold",
+                "image": ""
+            },
+            "1":    {
+                "name": "L01 Sloper right",
+                "image": "ballsy_r01.png"
+            },
+            "2":    {
+                "name": "L02 Jug right",
+                "image": "ballsy_r02.png"
+            },
+            "3":    {
+                "name": "L03 Small Three fingers",
+                "image": "ballsy_r03.png"
+            },
+            "4":    {
+                "name": "04 Central deep",
+                "image": "ballsy_04.png"
+            },
+            "5":    {
+                "name": "L05 Deep four finger pocket",
+                "image": "ballsy_r05.png"
+            },
+            "6":    {
+                "name": "L06 Medium three finger pocket",
+                "image": "ballsy_r06.png"
+            },
+            "7":    {
+                "name": "07 Central deep pocket",
+                "image": "ballsy_07.png"
+            },
+            "8":    {
+                "name": "L08 Hard three finger pocket",
+                "image": "ballsy_r08.png"
+            },
+            "9":    {
+                "name": "09 Hard three finger central",
+                "image": "ballsy_09.png"
+            },
+            "10":   {
+                "name": "L10 Deep two fingers pocket",
+                "image": "ballsy_r10.png"
+            },
+            "11":   {
+                "name": "11 Medium three finger pocket",
+                "image": "ballsy_11.png"
+            },
+        },
+    },
+
+
+
+
     "bm1000": {
         "name":  "Beastmaker 1000",
         "image": "bm1000.png",

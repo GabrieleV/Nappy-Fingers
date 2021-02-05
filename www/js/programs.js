@@ -1,5 +1,465 @@
 const DEFAULT_PROGRAMS = {
-    "version": 3,
+    "version": 4,
+
+    "ballsy": [
+        {
+            "title":        "Ballsy 5a",
+            "description":  "Beginner hanging workout",
+            "exercises":    [
+                {
+                    "title":        "Jug Hang (1/12)",
+                    "description":  "Hang on, four fingers",
+                    "left":         2,
+                    "right":        2,
+                    "hold":         7,
+                    "rest":         3,
+                    "repeat":       7,
+                    "pause":        0,
+                },
+                {
+                    "title":        "Jug hang (2/12)",
+                    "description":  "Hang on, four fingers",
+                    "left":         2,
+                    "right":        2,
+                    "hold":         7,
+                    "rest":         3,
+                    "repeat":       7,
+                    "pause":        90,
+                },
+                {
+                    "title":        "Four fingers deep pocket (3/12)",
+                    "description":  "Hang on, four fingres",
+                    "left":         5,
+                    "right":        5,
+                    "hold":         7,
+                    "rest":         3,
+                    "repeat":       7,
+                    "pause":       90,
+                },
+                {
+                    "title":        "Four fingers deep pocket (4/12)",
+                    "description":  "Hang on, four fingres",
+                    "left":         5,
+                    "right":        5,
+                    "hold":         7,
+                    "rest":         3,
+                    "repeat":       7,
+                    "pause":       90,
+               },
+                {
+                    "title":        "Three fingers deep pocket (5/12)",
+                    "description":  "Hang on, three fingres",
+                    "left":         5,
+                    "right":        5,
+                    "hold":         7,
+                    "rest":         3,
+                    "repeat":       7,
+                    "pause":       90,
+               },
+                {
+                    "title":        "Three fingers deep pocket (6/12)",
+                    "description":  "Hang on, three fingres",
+                    "left":         5,
+                    "right":        5,
+                    "hold":         7,
+                    "rest":         3,
+                    "repeat":       7,
+                    "pause":       90,
+               },
+
+                {
+                    "title":        "Jug Hang (7/12)",
+                    "description":  "Hang on, four fingers",
+                    "left":         2,
+                    "right":        2,
+                    "hold":         7,
+                    "rest":         3,
+                    "repeat":       7,
+                    "pause":      180,
+                },
+                {
+                    "title":        "Jug hang (8/12)",
+                    "description":  "Hang on, four fingers",
+                    "left":         2,
+                    "right":        2,
+                    "hold":         7,
+                    "rest":         3,
+                    "repeat":       7,
+                    "pause":        90,
+                },
+                {
+                    "title":        "Four fingers deep pocket (9/12)",
+                    "description":  "Hang on, four fingres",
+                    "left":         5,
+                    "right":        5,
+                    "hold":         7,
+                    "rest":         3,
+                    "repeat":       7,
+                    "pause":       90,
+                },
+                {
+                    "title":        "Four fingers deep pocket (10/12)",
+                    "description":  "Hang on, four fingres",
+                    "left":         5,
+                    "right":        5,
+                    "hold":         7,
+                    "rest":         3,
+                    "repeat":       7,
+                    "pause":       90,
+               },
+                {
+                    "title":        "Three fingers deep pocket (11/12)",
+                    "description":  "Hang on, three fingres",
+                    "left":         5,
+                    "right":        5,
+                    "hold":         7,
+                    "rest":         3,
+                    "repeat":       7,
+                    "pause":       90,
+               },
+                {
+                    "title":        "Three fingers deep pocket (12/12)",
+                    "description":  "Hang on, three fingres",
+                    "left":         5,
+                    "right":        5,
+                    "hold":         7,
+                    "rest":         3,
+                    "repeat":       7,
+                    "pause":       90,
+               }
+
+            ]
+        },
+
+        {
+            "title":        "Warm up",
+            "description":  "Properly warming up is very important to avoid injuries",
+            "exercises":    [
+                {
+                    "title":        "Jug pull ups",
+                    "description":  "Pull up twice",
+                    "left":         1,
+                    "right":        1,
+                    "hold":         6,
+                    "rest":         4,
+                    "repeat":       3,
+                    "pause":        15,
+                },
+                {
+                    "title":        "Jug hang",
+                    "description":  "Hang on straight arms",
+                    "left":         1,
+                    "right":        1,
+                    "hold":         8,
+                    "rest":         5,
+                    "repeat":       5,
+                    "pause":        30,
+                },
+                {
+                    "title":        "Four fingers lock off",
+                    "description":  "Pull up and lock off with bent arms",
+                    "left":         5,
+                    "right":        5,
+                    "hold":         6,
+                    "rest":         5,
+                    "repeat":       5,
+                    "pause":        60,
+                },
+                {
+                    "title":        "Four fingers hang",
+                    "description":  "Hang on straight arms",
+                    "left":         5,
+                    "right":        5,
+                    "hold":         5,
+                    "rest":         4,
+                    "repeat":       5,
+                    "pause":        30,
+                }
+            ]
+        },
+        {
+            "title":        "Hang time",
+            "description":  "Much hang time on good holds",
+            "exercises":    [
+                {
+                    "title":        "Warm up",
+                    "description":  "Hang on straight arms",
+                    "left":         1,
+                    "right":        1,
+                    "hold":         7,
+                    "rest":         4,
+                    "repeat":       7,
+                    "pause":        15,
+                },
+                {
+                    "title":        "Pull up 2x and hang",
+                    "description":  "Pull up twice, then hang on straight arms",
+                    "left":         1,
+                    "right":        1,
+                    "hold":         10,
+                    "rest":         10,
+                    "repeat":       3,
+                    "pause":        120,
+                },
+                {
+                    "title":        "Four fingers hang",
+                    "description":  "Hang on straight arms",
+                    "left":         5,
+                    "right":        5,
+                    "hold":         6,
+                    "rest":         4,
+                    "repeat":       4,
+                    "pause":        90,
+                },
+                {
+                    "title":        "Three fingers right side",
+                    "description":  "Pull up once and stay with bent arms",
+                    "left":         1,
+                    "right":        9,
+                    "hold":         5,
+                    "rest":         7,
+                    "repeat":       5,
+                    "pause":        120,
+                },
+                {
+                    "title":        "Three fingers left side",
+                    "description":  "Pull up once and stay with bent arms",
+                    "left":         9,
+                    "right":        1,
+                    "hold":         5,
+                    "rest":         7,
+                    "repeat":       5,
+                    "pause":        120,
+                },
+                {
+                    "title":        "Four fingers pull up",
+                    "description":  "Pull up once, then hang on straight arms",
+                    "left":         5,
+                    "right":        5,
+                    "hold":         5,
+                    "rest":         4,
+                    "repeat":       5,
+                    "pause":        120,
+                },
+                {
+                    "title":        "Four fingers hang",
+                    "description":  "Hang on straight arms",
+                    "left":         5,
+                    "right":        5,
+                    "hold":         7,
+                    "rest":         4,
+                    "repeat":       7,
+                    "pause":        120,
+                },
+                {
+                    "title":        "Jug hang",
+                    "description":  "Hang on straight arms",
+                    "left":         1,
+                    "right":        1,
+                    "hold":         7,
+                    "rest":         4,
+                    "repeat":       7,
+                    "pause":        120,
+                }
+            ]
+        },
+        {
+            "title":        "Pocket pull ups",
+            "description":  "Pull ups on good finger pockets",
+            "exercises":    [
+                {
+                    "title":        "Warm up",
+                    "description":  "Pull up once and stay with bent arms",
+                    "left":         1,
+                    "right":        1,
+                    "hold":         7,
+                    "rest":         4,
+                    "repeat":       5,
+                    "pause":        15,
+                },
+                {
+                    "title":        "Four plus two pull up and hang",
+                    "description":  "Pull up once, then hang on straight arms",
+                    "left":         5,
+                    "right":        7,
+                    "hold":         7,
+                    "rest":         5,
+                    "repeat":       5,
+                    "pause":        90,
+                },
+                {
+                    "title":        "Two plus four pull up and hang",
+                    "description":  "Pull up once, then hang on straight arms",
+                    "left":         7,
+                    "right":        5,
+                    "hold":         7,
+                    "rest":         5,
+                    "repeat":       5,
+                    "pause":        120,
+                },
+                {
+                    "title":        "Three fingers hang",
+                    "description":  "Hang on straight arms",
+                    "left":         9,
+                    "right":        9,
+                    "hold":         6,
+                    "rest":         4,
+                    "repeat":       6,
+                    "pause":        120,
+                },
+                {
+                    "title":        "Four fingers pull up 2x and stay",
+                    "description":  "Pull up twice, then stay with bent arms",
+                    "left":         5,
+                    "right":        5,
+                    "hold":         8,
+                    "rest":         10,
+                    "repeat":       5,
+                    "pause":        120,
+                },
+                {
+                    "title":        "Jug pull up and hang",
+                    "description":  "Pull up once, then hang on straight arms",
+                    "left":         1,
+                    "right":        1,
+                    "hold":         8,
+                    "rest":         4,
+                    "repeat":       5,
+                    "pause":        120,
+                }
+            ]
+        },
+        {
+            "title":        "Just hang",
+            "description":  "Boring hangs on good and medium pockets",
+            "exercises":    [
+                {
+                    "title":        "Warm up",
+                    "description":  "Hang on straight arms",
+                    "left":         1,
+                    "right":        1,
+                    "hold":         7,
+                    "rest":         4,
+                    "repeat":       5,
+                    "pause":        15,
+                },
+                {
+                    "title":        "Three finger right side",
+                    "description":  "Hang on straight arms",
+                    "left":         9,
+                    "right":        11,
+                    "hold":         7,
+                    "rest":         5,
+                    "repeat":       5,
+                    "pause":        60,
+                },
+                {
+                    "title":        "Three finger left side",
+                    "description":  "Hang on straight arms",
+                    "left":         11,
+                    "right":        9,
+                    "hold":         7,
+                    "rest":         5,
+                    "repeat":       5,
+                    "pause":        120,
+                },
+                {
+                    "title":        "Two fingers left side",
+                    "description":  "Hang on straight arms",
+                    "left":         7,
+                    "right":        9,
+                    "hold":         7,
+                    "rest":         5,
+                    "repeat":       5,
+                    "pause":        120,
+                },
+                {
+                    "title":        "Two fingers right side",
+                    "description":  "Hang on straight arms",
+                    "left":         9,
+                    "right":        7,
+                    "hold":         7,
+                    "rest":         5,
+                    "repeat":       5,
+                    "pause":        120,
+                },
+                {
+                    "title":        "Four fingers chill out",
+                    "description":  "Hang on straight arms",
+                    "left":         5,
+                    "right":        5,
+                    "hold":         7,
+                    "rest":         5,
+                    "repeat":       7,
+                    "pause":        120,
+                }
+            ]
+        },
+        {
+            "title": "Maximum strength",
+            "description": "Maximum finger strength training",
+            "exercises": [
+                {
+                    "title":        "Four fingers open hand",
+                    "description":  "Four fingers open hand. Hang on straight arms",
+                    "left":         5,
+                    "right":        5,
+                    "hold":         12,
+                    "rest":         120,
+                    "repeat":       5,
+                    "pause":        15
+                },
+                {
+                    "title":        "Three finger open hand",
+                    "description":  "Three fingers open hand. Hang on straight arms",
+                    "left":         11,
+                    "right":        11,
+                    "hold":         10,
+                    "rest":         150,
+                    "repeat":       5,
+                    "pause":        180
+                },
+                {
+                    "title":        "Half crimp",
+                    "description":  "Four finger half crimp. Hang on straight arms",
+                    "left":         6,
+                    "right":        6,
+                    "hold":         10,
+                    "rest":         150,
+                    "repeat":       5,
+                    "pause":        180
+                },
+            ]
+        },
+        {
+            "title": "Max two finger strength",
+            "description": "Maximum finger strength training for two-finger grips",
+            "exercises": [
+                {
+                    "title":        "Two fingers RM open hand",
+                    "description":  "Ring and middle finger open hand. Hang on straight arms",
+                    "left":         5,
+                    "right":        5,
+                    "hold":         10,
+                    "rest":         150,
+                    "repeat":       5,
+                    "pause":        15
+                },
+                {
+                    "title":        "Two fingers MI open hand",
+                    "description":  "Ring and middle finger fully open hand. Hang on straight arms",
+                    "left":         5,
+                    "right":        5,
+                    "hold":         10,
+                    "rest":         150,
+                    "repeat":       5,
+                    "pause":        180
+                }
+            ]
+        }
+    ],
+
+
     "bm1000": [
         {
             "title":        "Warm up",
@@ -328,6 +788,7 @@ const DEFAULT_PROGRAMS = {
             ]
         }
     ],
+
     "bm2000": [
         {
             "title":        "Warm up",
@@ -432,6 +893,7 @@ const DEFAULT_PROGRAMS = {
             ]
         }
     ],
+
     "griptonite": [
         {
             "title":        "Warm up",
